@@ -1,0 +1,83 @@
+env:
+  TERM: xterm-256color
+
+window:
+  decorations: buttonless
+  padding:
+    x: 0
+    y: 0
+
+  dynamic_padding: true
+  window.dynamic_title: true
+  startup_mode: Windowed
+
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 5000
+
+
+# Font configuration
+font:
+  normal:
+    family: Menlo
+    style: Regular
+
+  # Bold font face
+  bold:
+    family: Menlo
+    style: Bold
+
+  # Italic font face
+  italic:
+    family: Menlo
+    style: Italic
+
+  # Bold italic font face
+  bold_italic:
+    family: Menlo
+    style: Bold Italic
+
+  # Point size
+  size: 13.0
+
+  # Offset is the extra space around each character. `offset.y` can be thought of
+  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
+  offset:
+    x: 1
+    y: 3
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+colors:
+   # Default colors
+   primary:
+     background: '#000000'
+     foreground: '#ffffff'
+   # Normal colors
+   normal:
+     black:   '#000000'
+     red:     '#cd0000'
+     green:   '#00cd00'
+     yellow:  '#cdcd00'
+     blue:    '#0000ee'
+     magenta: '#cd00cd'
+     cyan:    '#00cdcd'
+     white:   '#e5e5e5'
+
+   # Bright colors
+   bright:
+     black:   '#7f7f7f'
+     red:     '#ff0000'
+     green:   '#00ff00'
+     yellow:  '#ffff00'
+     blue:    '#5c5cff'
+     magenta: '#ff00ff'
+     cyan:    '#00ffff'
+     white:   '#ffffff'
+
+# Background opacity
+background_opacity: 1
